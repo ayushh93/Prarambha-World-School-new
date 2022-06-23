@@ -1,0 +1,165 @@
+@media (min-width: 992px) {
+
+    #mobileMenu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #mainMenu {
+        display: block;
+        padding: 6px;
+    }
+
+    #categoryMenuBar {
+        display: none !important;
+    }
+
+    .navbar-brand img {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    a.navbar-brand {
+        margin-left: 2rem;
+    }
+
+    #homeIconMobile {
+        display: block;
+    }
+
+}
+
+@media (max-width: 769px) {
+
+    .top-search {
+        margin: 5px 0;
+    }
+
+    img.home-slider-img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    #homeSliderSection {
+        min-height: 350px;
+    }
+
+    .top-cart .fa {
+        margin-left: 10px;
+    }
+
+    .featured-item-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-1st,
+    .footer-2nd,
+    .footer-3rd {
+        margin-bottom: 20px;
+    }
+
+    .single-service img {
+        margin-bottom: 20px;
+    }
+
+    form#subscribeForm {
+        margin-top: 15px;
+    }
+
+    #homeIcon {
+        display: none;
+    }
+
+    #homeIconMobile {
+        padding: 15px 0;
+    }
+
+}
+
+@media (max-width: 481px) {
+
+    img.home-slider-img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    #homeSliderSection {
+        min-height: 250px;
+    }
+
+    #homeSliderSection .owl-nav {
+        display: none;
+    }
+
+    #homeCategory h3,
+    #onSale h3,
+    #featuredItems h3,
+    #brandSliderSection h3,
+    #testimonials h3,
+    #latestBlogs h3 {
+        font-size: 20px;
+    }
+
+    #homeIcon {
+        display: none;
+    }
+
+    .featured-item-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-detail-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-detail-grid {
+        margin: 20px;
+    }
+
+    .icon-img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .icon-box {
+        padding: 0px;
+        border: none;
+    }
+
+    .icon-title {
+        font-size: 9px;
+    }
+
+    .navbar-brand img {
+        margin-left: -30px;
+    }
+}
+
+@media(max-width:769px) {
+    #mainMenu {
+        display: block;
+        padding: 0px;
+    }
+    .navbar-collapse{
+        background: #fff;
+        padding: 30px;
+    }
+}
+@media(max-width: 426px){
+    #homeEvents{
+        padding-top: 110px;
+    }
+    .copyright-block {
+    flex-direction: column !important;
+}
+.slider-block {
+    height: 70vh;
+    background-size: cover;
+}
+}

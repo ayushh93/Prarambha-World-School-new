@@ -1,0 +1,37 @@
+[08-May-2022 11:07:01 UTC] PHP Warning:  require(/home2/prarambha/public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home2/prarambha/public_html/index.php on line 34
+[08-May-2022 11:07:01 UTC] PHP Fatal error:  require(): Failed opening required '/home2/prarambha/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/prarambha/public_html/index.php on line 34
+[16-May-2022 14:16:52 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): collect(Array)
+#2 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#3 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#4 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
+[16-May-2022 14:18:12 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): collect(Array)
+#2 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#3 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#4 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
+[16-May-2022 14:19:03 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): collect(Array)
+#2 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#3 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#4 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
+[16-May-2022 14:19:20 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): collect(Array)
+#2 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#3 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#4 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
+[16-May-2022 14:21:50 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): collect(Array)
+#2 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#3 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#4 /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home2/pwsedu/praramva_code/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31

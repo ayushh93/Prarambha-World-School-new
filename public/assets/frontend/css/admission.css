@@ -1,0 +1,294 @@
+a:hover {
+    text-decoration: none;
+}
+
+#admission-form {
+    margin-top: 65px;
+    padding: 40px 0;
+    background: linear-gradient(190deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(235, 254, 229, 0.7962535355939251) 55%,
+            rgba(250, 250, 250, 1) 100%);
+}
+
+.admission-form-heading h2 {
+    padding: 0 0 30px 0;
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+}
+
+.admission-form-heading h2:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: rgb(19, 165, 100);
+    width: 10%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-admission p {
+    text-align: left;
+}
+
+.download-btn {
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #00ad25;
+    color: #fff;
+    transition-delay: .2s;
+    transition: .3s;
+    font-variant-caps: all-small-caps;
+    box-shadow: 4px 3px 11px 0 #00ad25;
+}
+
+.download-btn:hover {
+    background-color: #009420;
+    box-shadow: 4px 3px 11px 0 #005a13;
+}
+
+.download-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.down-btn h5 {
+    position: relative;
+    margin: 20px 0 30px;
+    font-weight: 600;
+}
+
+.down-btn h5:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: rgb(19, 165, 100);
+    width: 10%;
+    top: 30px;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.option-form h2 {
+    color: #000;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.option-form h2:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: rgb(19, 165, 100);
+    width: 2%;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.online-form {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.option-form h4.online-form {
+    color: #000;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.option-form h4.online-form:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: rgb(19, 165, 100);
+    width: 10%;
+    top: 66px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.option-form h5.online-form-section-heading {
+    color: #000;
+    position: relative;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.option-form h5.online-form-section-heading:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: rgb(19, 165, 100);
+    width: 10%;
+    top: 61px;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.multiple-columns {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.middle-column {
+    padding: 0 20px !important;
+}
+
+.top-form textarea {
+    width: 100%;
+}
+
+.form-submit {
+    padding: 10px 20px;
+    border: unset;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.form-submit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(19, 165, 100);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.form-submit:hover {
+    color: #e8e8e8;
+}
+
+.form-submit:hover::before {
+    width: 100%;
+}
+
+.leftpadding {
+    padding-left: 20px !important;
+}
+
+.rightpadding {
+    padding-right: 20px !important;
+}
+
+/*CONTACT US*/
+.mark {
+    background: none;
+}
+
+.mark i {
+    color: #198754;
+}
+
+.information {
+    margin-top: 80px;
+}
+
+.content h5 a {
+    color: #198754;
+}
+
+.content h5 a:hover {
+    text-decoration: none;
+    color: #2eb777;
+}
+
+.information h5.online-form-section-heading {
+    color: #000;
+    position: relative;
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.information h5.online-form-section-heading:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: #198754;
+    width: 15%;
+    top: 35px;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+
+.information {
+    background: linear-gradient(190deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(235, 254, 229, 0.7962535355939251) 55%,
+            rgba(250, 250, 250, 1) 100%);
+}
+
+/*NAV LOGIN BUTTON*/
+.nav-login {
+    display: inline-block;
+    background: #198754;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0.2rem;
+    border: 1px solid #198754;
+}
+
+.nav-login:hover {
+    background: #fff;
+    border: 1px solid #198754;
+    color: #198754;
+}
+
+.calendar-button a i{
+    color: #198754;
+    padding: 8px 12px;
+    border: 1px solid #198754;
+    margin-left: 10px;
+    border-radius: 0.2rem;
+}
+.calendar-button a i:hover{
+    color: #fff;
+    background-color: #198754;
+    border: 1px solid #198754;
+    transition: 0.3s ease-in-out;
+}
+
+
+/*NAV LOGIN BUTTON ENDS*/
+
+@media(max-width: 769px) {
+    .middle-column {
+        padding: 0 0 !important;
+    }
+
+    .leftpadding {
+        padding-left: 0px !important;
+    }
+
+    .rightpadding {
+        padding-left: 0px !important;
+    }
+
+}
